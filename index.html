@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pwa-ar-objetos3d</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <div style="padding: 1rem; text-align: center; max-width: 800px; margin: 0 auto;">
+      <div style="display: flex; gap: 1rem; justify-content: center; margin-bottom: 1rem;">
+        <button id="btn-ar" class="counter" disabled>🥽 Ver en AR</button>
+      </div>
+      <p id="estado-ar" style="font-size: 0.9em; color: #888;"></p>
+      
+      <details class="diag-ar" style="margin-top: 1rem; text-align: left; max-width: 400px; margin-left: auto; margin-right: auto;">
+        <summary style="cursor: pointer; color: #ffaa00; font-weight: bold;">Diagnóstico de realidad aumentada</summary>
+        <pre id="diag-ar" style="font-size: 0.8em; background: #05080f; padding: 0.5rem; border-radius: 4px; white-space: pre-wrap; color: #fff;"></pre>
+        <button id="btn-recomprobar" class="counter" style="margin-top: 0.5rem; font-size: 0.8em; padding: 0.3rem 0.6em;">Comprobar de nuevo</button>
+      </details>
+    </div>
+
+    <div style="padding: 1rem; text-align: center; max-width: 800px; margin: 0 auto;">
+      <button id="btn-avisos" class="counter" style="margin-right: 0.5rem;">🔔 Activar avisos</button>
+      <button id="btn-descargar" class="counter">⬇️ Descargar fichas</button>
+      <p id="estado-descarga" style="font-size: 0.9em; color: #888; margin-top: 0.5rem;"></p>
+    </div>
+
+    <div id="xr-overlay" class="xr-overlay">
+      <p id="xr-estado">Sesión de realidad aumentada activa</p>
+      <button type="button" id="btn-salir-ar">Salir de AR</button>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

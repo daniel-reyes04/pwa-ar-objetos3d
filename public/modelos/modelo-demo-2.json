@@ -1,0 +1,26 @@
+{
+  "status": 200,
+  "nombre": "Arquitectura en la Nube",
+  "descripcion": "Curso de arquitectura en la nube que cubre los fundamentos, servicios y mejores prácticas para diseñar y desplegar aplicaciones en entornos de nube.",
+  "duracion": "8 semanas",
+  "nivel": "Intermedio",
+  "temas": [
+    "Fundamentos de la nube",
+    "Servicios de infraestructura como servicio (IaaS)",
+    "Plataforma como servicio (PaaS)",
+    "Software como servicio (SaaS)",
+    "Diseño de arquitecturas escalables",
+    "Seguridad en la nube",
+    "Optimización de costos",
+    "Despliegue y monitoreo de aplicaciones"
+  ],
+  "instructor": {
+    "nombre": "Dr. Juan Pérez",
+    "experiencia": "10 años en arquitectura de soluciones en la nube",
+    "certificaciones": [  
+      "AWS Certified Solutions Architect",
+      "Microsoft Certified: Azure Solutions Architect Expert",
+      "Google Cloud Professional Cloud Architect"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": 200,
+  "nombre": "Arquitectura en software",
+  "descripcion": "La arquitectura de software es la estructura o estructuras de un sistema de software, que comprende los elementos de software, las relaciones entre ellos y las propiedades de ambos. La arquitectura de software es un conjunto de decisiones de diseño que son difíciles de cambiar una vez implementadas. Estas decisiones afectan a la calidad del software, su rendimiento, escalabilidad, mantenibilidad y otros atributos importantes.",
+  "objetivos": [
+    "Definir la estructura del sistema de software.",
+    "Establecer las relaciones entre los componentes del sistema.",
+    "Determinar las propiedades y atributos del sistema."
+  ]
+}

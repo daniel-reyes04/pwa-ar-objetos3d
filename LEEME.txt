@@ -1,0 +1,8 @@
+Íconos del manifest — Atlas 3D de Arquitectura de Software (Sesión 27)
+
+icon-192.png            192x192 — tamaño mínimo típico para Android
+icon-512.png             512x512 — splash screen / tiendas de apps
+icon-512-maskable.png    512x512 con zona segura al 80%, para "purpose": "maskable"
+
+Ya vienen incluidos en public/iconos/ del proyecto base (pwa-ar-objetos3d-base.zip).
+Este zip aparte es solo por si necesitas los íconos sueltos.
